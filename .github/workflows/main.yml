@@ -1,0 +1,18 @@
+# Trigger a build of speedlify on Netlify every night.
+
+name: Nightly build
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Trigger our build webhook on Netlify
+        run: curl -s -X POST -d {} https://api.netlify.com/build_hooks/${TOKEN}
+        env:
+          TOKEN: ${{ secrets.NETLIFY_TOKEN }}
