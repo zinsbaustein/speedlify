@@ -21,11 +21,11 @@ Can run directly on Netlify (including your tests) and will save the results to 
 
 _After cloning you’ll probably want to delete the initial `_data/sites/*.js` files and create your own file with a list of your own site URLs!_
 
-<a href="https://app.netlify.com/start/deploy?repository=https://github.com/zachleat/speedlify"><img src="https://www.netlify.com/img/deploy/button.svg" width="146" height="32"></a>
+<a href="https://app.netlify.com/start/deploy?repository=https://github.com/zinsbaustein/speedlify"><img src="https://www.netlify.com/img/deploy/button.svg" width="146" height="32"></a>
 
 Speedlify will also save your data to `/results.zip` so that you can download later. Though this has proved to be unnecessary so far, it does serve as a fallback backup mechanism in case the Netlify cache is lost. Just look up your previous build URL and download the data to restore.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/7298a132-e366-460a-a4da-1ea352a4e790/deploy-status)](https://app.netlify.com/sites/speedlify/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/9433ca28-6fff-4520-90e5-841e8d4a60df/deploy-status)](https://app.netlify.com/sites/zinsbaustein-speedlify/deploys)
 
 ## Known Limitations
 
